@@ -188,7 +188,7 @@ static bool edt_ft5x06_ts_check_crc(struct edt_ft5x06_ts_data *tsdata,
 
 	return true;
 }
-static void wake_system()
+static void wake_system(void)
 {
 	if(wake_key_dev!=NULL)
    {

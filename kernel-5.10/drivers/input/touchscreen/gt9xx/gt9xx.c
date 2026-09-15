@@ -150,7 +150,7 @@ static s8 gtp_enter_doze(struct goodix_ts_data *ts);
 
 u8 grp_cfg_version = 0;
 
-static void wake_system()
+static void wake_system(void)
 {
    if(wake_key_dev!=NULL)
    {
